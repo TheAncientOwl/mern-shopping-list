@@ -1,0 +1,12 @@
+GET http://localhost:5000/api/items
+
+// --------------------------------------
+POST http://localhost:5000/api/items
+Content-Type: application/json
+
+{
+  "name": "Eggs"
+}
+
+// --------------------------------------
+DELETE http://localhost:5000/api/items/232
